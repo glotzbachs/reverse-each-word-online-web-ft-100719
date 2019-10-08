@@ -1,5 +1,5 @@
 def reverse_each_word(string)
-  array=%w"#{string}"
+  array=string.split(" ")
   array.collect do |each|
     each.reverse
   end
